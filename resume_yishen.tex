@@ -1,0 +1,187 @@
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{hanging}
+\usepackage{parskip}
+\usepackage{multicol}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Yishen Liu}
+\def\email{liuyishen418@gmail.com}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  linkcolor = black,
+  citecolor = black,
+  filecolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\bfseries\Large}
+\subsectionfont{\rmfamily\bfseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+%{\huge \bf \name}
+
+\centerline{\huge \bf \name}
+\vspace{0.1in}
+\centerline{\email}
+
+\vspace{0.25in}
+
+\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{0.5pt}}
+
+\section*{Core Qualification}
+
+\begin{itemize}
+\begin{minipage}{0.4\linewidth}
+    \item[$\bullet$] 6+ years in Business analytics
+    \item[$\bullet$] Predictive Modeling: ML/XAI
+    \item[$\bullet$] Certified AWS Developer Associate 
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+    \item[$\bullet$] Big Data Analytics: AWS/Spark/SQL
+    \item[$\bullet$] Causal Inference: ATE/CATE
+    \item[$$] \;
+\end{minipage}
+\end{itemize}
+
+
+\section*{Professional Experience}
+\begin{tabular}{ll}
+ {\bfseries Apr 2020- present}  & {\bfseries Lead Associate, Enterprise Modeling and Analytics - Data Science, Fannie Mae} \\ 
+ {\bfseries Jan 2018- Apr 2020}  & {\bfseries Quantitative Modeler III, Model Risk Management, Fannie Mae} \\
+ {\bfseries Jun 2017- Jan 2018} & {\bfseries Economist II, Model Risk Management, Fannie Mae} \\
+ {\bfseries Jan 2015- Jun 2017} & {\bfseries Economist I, Model Risk Management, Fannie Mae} \\
+ 
+\end{tabular}
+
+
+\begin{itemize}
+
+  
+  \item[$-$] {\normalsize Borrower Desktop Underwriting (DU) data analytics (deliverable/non-deliverable application sorting -- Random Projection ensemble; optimal dual return -- Data Envelopment Analysis; estimation of various (semi-) elastcities -- ATE/CATE).}
+  
+  \item[$-$] {\normalsize Developed Fannie Mae COVID FORBEARANCE SCORE CARD (CFS) model (discrete choice modeling, R/Python).}
+  
+  \item[$-$] {\normalsize Developed Fannie Mae Short-term conditional prepayment prediction model (neural network, Python) and web application (streamlit, Python).}
+  
+  \item[$-$] {\normalsize Experienced in estimating and implementing mortgage credit risk rank ordering models and loan transition models.}
+  
+  \item[$-$] {\normalsize Experienced in model risk management in the area of credit risk modeling (Loss Forecast Model, prepay, default, and delinquency transitions, etc.), financial forecast (DFAST/MST/corporate forecast), credit portfolio management, collateral valuation (AVM/FAVM).}
+   
+  \item[$-$] {\normalsize Won the 2nd place in Fannie Mae Distressed Property Valuation Machine Learning Competition (Hackathon). During this company-wide internal competition, I constructed a ML model predicting future REO sales price (using R and Python).}
+  
+  \item[$-$] {\normalsize Selected as a member of Fannie Mae {\slshape Risk Think Tank} and conducted {\slshape top risks assessment 2018}. During this project, I worked with a group of members coming from various departments within Enterprise Risk Management (ERM). We conducted risk assessment for potential loss and damage to Fannie Mae owned properties (both single family and multi-family) due to hypothetical hurricane events along the fault line on the west coast.}
+
+\end{itemize}
+
+\vspace{0.2in}
+
+\begin{tabular}{ll}   
+
+ {\bfseries Jan 2014-Jan 2015} & {\bfseries Consultant, Development Economic Research Group (DECRG)} , \\
+                   & {\bfseries World Bank, Task Team Lead: Harris Selod} \\                      
+ \end{tabular}  
+\begin{itemize}
+  \item[$-$] {\normalsize Provided research assistance to senior economists, including data and regression analysis, drafting reports, and providing literature summary.}
+  \item[$-$] {\normalsize Analyzed poverty and domestic consumption data in Africa.}   
+\end{itemize}
+
+\newpage
+
+\section*{Education}
+\begin{itemize}
+  \item The George Washington University, Washington DC
+  \subitem Ph.D., Economics, May 2016
+  \item University at Buffalo, Buffalo, NY
+  \subitem M.S., Economics, May 2010 
+\end{itemize}
+
+\section*{Publication}
+\begin{itemize}
+ 
+  \item ``Birth Control, Family Size and Educational Stratification: Evidence from the Han and Ethnic Minorities in China'', with Yao Pan (Aalto University), {\slshape Economics of Education Review}, 2021, Vol.81.
+  
+ \item ``Foreclosure Externalities: Have We Confused the Cure with the Disease?'', with Anthony Yezer (George Washington University), {\slshape Real Estate Economics}, accepted in March 2019.
+ 
+ \item ``Estimating the Elasticity of Supply of Housing Space Rather than Units'', {\slshape Regional Science and Urban Economics}, 2018, Vol.68 (Jan): 1-10.
+ 
+ \item ``Transport Policies and Development'', with Uwe Deichmann (World Bank), Claudia Berg (World Bank), and Harris Selod (World Bank), {\slshape The Journal of Development Studies}, 2017, Vol.53 (4): 465-480.
+ 
+ \item ``Housing Consumption Declines with Income in the Open-city Model: Theory and Empirical Evidence'', {\slshape Journal of Regional Science}, 2017, Vol.57 (5): 884-903.
+ 
+\end{itemize}
+
+
+\section*{Computer Skills}
+\begin{tabular}{ll}
+ Application: & Stata, MS Office/BI tools, Tableau, Unix/Linux systems \\
+ Programming: & SAS, R, Matlab, \LaTeX, SQL, Python, Bash, Git\\
+\end{tabular}
+
+%\section*{Languages}
+%English(Fluent); Mandarin(Native)
+
+%\bigskip
+
+% Footer
+%\begin{center}
+ % \begin{footnotesize}
+  %  Last updated: \today \\
+  %\end{footnotesize}
+%\end{center}
+
+\end{document}
